@@ -1,0 +1,12 @@
+<h2>Your Uploaded Files</h2>
+<ul>
+    {% for file in files %}
+        <li>
+            <strong>{{ file.title }}</strong> - 
+            <a href="{{ file.file.url }}">Download</a>
+        </li>
+    {% empty %}
+        <li>No files uploaded.</li>
+    {% endfor %}
+</ul>
+
