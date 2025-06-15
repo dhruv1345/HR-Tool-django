@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 argcomplete==3.1.4
 attrs==23.2.0
 Automat==22.10.0
@@ -75,3 +76,36 @@ wheel==0.42.0
 yamllint==1.33.0
 zope.interface==6.1
                                            
+=======
+# Django Core & Runtime
+Django>=4.2
+gunicorn
+python-dotenv
+pytz
+
+# Useful Libraries
+bcrypt==3.2.2
+Jinja2==3.1.2
+click==8.1.6
+certifi==2023.11.17
+chardet==5.2.0
+colorama==0.4.6
+rich==13.7.1
+requests==2.31.0
+
+# Optional Tools
+PyYAML==6.0.1
+psutil==5.9.8
+typing_extensions==4.10.0
+
+# Django Plugins
+django-crispy-forms==2.1
+django-ckeditor==6.7.0
+crispy-bootstrap5==2023.10
+
+# Database Drivers (uncomment if needed)
+# djangorestframework
+# mysqlclient
+# psycopg2
+
+>>>>>>> ff5554f (more features to be added)
